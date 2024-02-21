@@ -1,5 +1,5 @@
 # HW1.py
-# Author:
+# Author: Jesse Nelson
 
 # Question 1:
 # Print Hello World like we did in class
@@ -28,7 +28,8 @@ myAnimal = "Tiger"
 # I am <myAge> years old
 # My favorite color is <myColor>
 # My favorite animal is <myAnimal>
-print("Hello my name is ", myName," I am ", myAge, "years old. My favorite color is", myColor, "and My favorite animal is a", myAnimal)
+print("Hello my name is ", myName," I am ", myAge, "years old. My favorite color is", 
+      myColor, "and My favorite animal is a", myAnimal)
 
 # Question 4:
 # Calculate the following and print )the result:
@@ -106,3 +107,4 @@ print("", symbol * 7, "|")
 print(" ", symbol * 5, " |")
 print("  ", symbol * 3, "  |")
 print("   ", symbol, "   |")
+
