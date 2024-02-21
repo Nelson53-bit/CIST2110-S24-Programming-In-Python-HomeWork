@@ -59,24 +59,34 @@ print(num4 - num1)
 # num2 / num1
 print(num2 / num1)
 # Question 6: Write a program that asks the user for their name and then prints the following:
-
+user_name = input("What is you're name? ")
 # Hello, <name>. Please enter three numbers.
-print("What is you're name?")
-user_name = input()
 print("Hello", user_name, "please enter three numbers")
-# The program should then ask the user for three numbers (floats) and print the following:
-print(user_name,"please give three numbers")
 num1 = input()
 num2 = input()
 num3 = input()
+# The program should then ask the user for three numbers (floats) and print the following:
+print("Hello,", user_name, "please enter three numbers")
+num4 = float(input())
+num5 = float(input())
+num6 = float(input())
 # 1. The sum of the three numbers is <sum>
-print(num1, num2, num3 = sum)  
+sum = num4 + num5 + num6
+print("The sum of the numbers is")
+print(sum) 
 # 2. The product of the three numbers is <product>
-
+product = float(num4 * num5 * num6)
+print("The product of the numbers is")
+print(product)
 # 3. round the three numbers to the nearest integer and print the sum of the three rounded numbers divided by 3
-
+rounded_sum = round(num4) + round(num5) + round(num6)
+new_sum = rounded_sum / 3
+print("The sum of the rounded numbers divided by three is")
+print(new_sum)
 # 4. The average of the three numbers is <average>
-
+average = (num4 + num5 + num6) / 3
+print("The average of the numbers is")
+print(average)
 # Question 7: Ask the user for an input of a symbol (in the example its *)
 # Print a diamond of the symbol that looks like the following. Include the spaces and the | character.
 # Hint: the print("symbol", end="") with \t and \n characters will be useful here.
@@ -88,4 +98,11 @@ print(num1, num2, num3 = sum)
 #  *****   |
 #   ***    |
 #    *     |
-print( )
+symbol = input("Enter a symbol: ")
+print("   ", symbol, "   |")
+print("  ", symbol * 3, "  |")
+print(" ", symbol * 5, " |")
+print("", symbol * 7, "|")
+print(" ", symbol * 5, " |")
+print("  ", symbol * 3, "  |")
+print("   ", symbol, "   |")
